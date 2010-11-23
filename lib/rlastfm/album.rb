@@ -56,7 +56,7 @@ module RLastFM
       # == Example
       #  RLastFM::Album.get_tags("MGMT", "Congratulations")
       def get_tags(artist, album, options = {})
-        raise NotImplemented
+        raise NotImplementedError
       end
 
       # Get the top tags for an album on Last.fm, ordered by popularity.
