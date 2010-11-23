@@ -1,0 +1,15 @@
+= The Last.fm Ruby Gem
+
+A Ruby wrapper for Last.fm API
+
+
+== Installation
+  gem install rlastfm
+
+== Usage Examples
+  First, set your api_key and api_secret.
+   RLastFM::Config.api_key = ""
+   RLastFM::Config.api_secret = ""
+
+  Getting album info
+   RLastFM::Album.get_info("MGMT", "Congratulations")
