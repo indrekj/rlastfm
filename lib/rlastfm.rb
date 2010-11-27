@@ -1,6 +1,7 @@
 module RLastFM
   autoload :Api, File.dirname(__FILE__) + "/rlastfm/api"
   autoload :Album, File.dirname(__FILE__) + "/rlastfm/album"
+  autoload :Artist, File.dirname(__FILE__) + "/rlastfm/artist"
 
   class Config
     class << self

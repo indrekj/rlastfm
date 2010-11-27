@@ -33,7 +33,8 @@ module RLastFM
       # * +album+ - The album name.
       # == Optional parameters
       # * +mbid+ - The musicbrainz id for the album.
-      # * +lang+ - The language to return the biography in.
+      # * +lang+ - The language to return the biography in, expressed as an
+      #   ISO 639 alpha-2 code.
       # * +autocorrect+ - 1 or 0, transform misspelled artist names into
       #   correct artist names, returning the correct version instead. The
       #   corrected artist name will be returned in the response.
